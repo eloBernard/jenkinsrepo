@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Jenkins test in Github..'
             }
         }
         stage('Deploy') {
